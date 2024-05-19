@@ -14,3 +14,7 @@ function formatArrayStrings(strings, numbers) {
 // // task_2_test
 // console.log(formatArrayStrings(['hello', 'world', 'foo', 'bar'], [1, 2, 3, 4]))
 
+module.exports = {
+  processArray,
+  formatArrayStrings
+};
