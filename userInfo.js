@@ -2,7 +2,7 @@ const { formatArrayStrings } = require('./arrayManipulation');
 
 function createUserProfiles(names, modifiedNames) {
   if (names.length !== modifiedNames.length) {
-    throw new Error('Names and modified names arrays must have the same length');
+    throw new Error('Names and modified_names arrays must have the same length');
   }
 
   const userProfiles = [];
